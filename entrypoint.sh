@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Generate a purely random value for the tag
 RANDOM_TAG="test_run_id=$(date +%s%N | sha256sum | base64 | head -c 16)"
